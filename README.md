@@ -1,9 +1,6 @@
+Here’s the updated **README.md** that you can directly copy:
 
-# NetworkScanner
-
-
----
-
+```markdown
 # Network Scanner App
 
 A simple network scanning tool built using Python's `tkinter` for the graphical interface and `scapy` for network scanning. This application allows users to scan a network for devices, display basic information about the devices (like IP, MAC address, hostname, and OS guess), and perform detailed scans on selected hosts.
@@ -27,7 +24,12 @@ A simple network scanning tool built using Python's `tkinter` for the graphical 
    pip install scapy
    ```
 
-3. Download or clone this repository.
+3. Download or clone this repository:
+   - **Download ZIP**: Go to the [GitHub repository](https://github.com/xcodexcode/NetworkScanner) and click the **"Code"** button, then select **"Download ZIP"** to download the repository as a ZIP file.
+   - **Clone using Git**: Run the following command in your terminal to clone the repository:
+     ```bash
+     git clone https://github.com/xcodexcode/NetworkScanner.git
+     ```
 
 ### Running the Application
 1. After downloading or cloning the repository, navigate to the project directory in the terminal.
@@ -59,9 +61,7 @@ A simple network scanning tool built using Python's `tkinter` for the graphical 
   - `start_scan()`: Starts a network scan by sending ARP requests to detect active hosts.
   - `perform_scan()`: Executes the ARP scan and populates the results.
   - `detailed_scan()`: Performs a basic port scan on a selected host.
-    ![image](https://github.com/user-attachments/assets/7648d513-9ea4-4352-a213-ce648f763db7)
 
-  
 - **`scapy`**: Used for sending ARP requests, scanning the network, and performing ICMP pings to guess the OS.
 - **`tkinter`**: Used to create the GUI components, such as buttons, labels, and the treeview for displaying scan results.
 
@@ -72,6 +72,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Python**: Core programming language.
 - **scapy**: Powerful Python library used for network packet manipulation.
 - **tkinter**: Python's built-in library for creating graphical user interfaces.
--    OWNER NABIL MISKI
+- **OWNER**: Nabil Miski
+```
 
-
+You can now easily copy and paste this updated README. It includes download instructions, installation steps, and usage details. Let me know if you need any further changes!
