@@ -1,6 +1,6 @@
-﻿# NetworkScanner
+
 # NetworkScanner
-Here's a README for your `NetworkScannerApp` project:
+
 
 ---
 
