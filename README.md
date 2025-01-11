@@ -16,15 +16,6 @@ The GUI will open, allowing you to:
 1. **Scan for Devices**: Select the interface, click "Scan Network," and the app will show a list of active devices on the local network.
 2. **Detailed Scan**: After selecting a device, click "Detailed Scan" to check open ports on that device (useful for detecting services like HTTP, SSH, FTP, etc.).
 
-### Code Overview
-- **`NetworkScannerApp` Class**: The main class that handles the GUI and network scanning logic.
-  - `get_network_interfaces()`: Retrieves available network interfaces.
-  - `start_scan()`: Starts a network scan by sending ARP requests to detect active hosts.
-  - `perform_scan()`: Executes the ARP scan and populates the results.
-  - `detailed_scan()`: Performs a basic port scan on a selected host.
-
-- **`scapy`**: Used for sending ARP requests, scanning the network, and performing ICMP pings to guess the OS.
-- **`tkinter`**: Used to create the GUI components, such as buttons, labels, and the treeview for displaying scan results.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
