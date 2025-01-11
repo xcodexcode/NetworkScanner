@@ -35,5 +35,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **tkinter**: Python's built-in library for creating graphical user interfaces.
 - **OWNER**: Nabil Miski
 ```
-
-You can now easily copy and paste this updated README. It includes download instructions, installation steps, and usage details. Let me know if you need any further changes!
