@@ -20,9 +20,3 @@ The GUI will open, allowing you to:
 ### License
 This project is licensed under the MIT License 
 
-### Credits
-- **Python**: Core programming language.
-- **scapy**: Powerful Python library used for network packet manipulation.
-- **tkinter**: Python's built-in library for creating graphical user interfaces.
-- **OWNER**: Nabil Miski
-```
